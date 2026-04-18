@@ -9,25 +9,70 @@
 </head>
 <body>
 
-    <header>
+<header class="header">
+        <a href="#" class="logo"><span>3D</span> NeuroNets</a>
+
         <nav class="navbar">
-            <div class="logo">
-                <h1><span>3D</span> NeuroNets</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="info-btn" class="fas fa-info-circle"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box" />
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <form action="" class="login-form">
+            <h3>Login Form</h3>
+            <input type="email" placeholder="enter your email" class="box" />
+            <input type="password" placeholder="enter your password" class="box" />
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me" />
+                <label for="remember-me">remember me</label>
+                <a href="#">forgot password?</a>
+            </div>
+            <input type="submit" value="login now" class="btn" />
+            <p>don't have an account? <a href="#">create one!</a></p>
+        </form>
     </header>
+
+    <div class="contact-info">
+        <div id="close-contact-info" class="fas fa-times"></div>
+
+        <div class="info">
+            <i class="fas fa-phone"></i>
+            <h3>Phone Number</h3>
+            <p>+222-111-4444</p>
+            <p>+111-222-3333</p>
+        </div>
+
+        <div class="info">
+            <i class="fas fa-envelope"></i>
+            <h3>Email Address</h3>
+            <p>3dneuronets@gmail.com</p>
+        </div>
+
+        <div class="info">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>1309 Coffeen Avenue, Ste 1200</h3>
+            <p>Sheridan, WY 82801</p>
+        </div>
+
+        <div class="share">
+            <a href="https://www.instagram.com/3dneuronets/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/3dneuronets" class="fab fa-linkedin"></a>
+        </div>
+    </div>
 
     <section id="home" class="hero">
         <div class="hero-content">
@@ -110,18 +155,23 @@
         </div>
     </section>
 
-    <section id="contact" class="contact bg-light">
-        <div class="container">
-            <h2 class="section-title">Get In <span>Touch</span></h2>
-            <form id="contact-form">
-                <div class="form-group">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn">Send Message</button>
+    <section class="contact bg-light" id="contact">
+        <h2 class="section-title">Contact <span>Us</span></h2>
+
+        <div class="row">
+            <iframe
+                class="map"
+                src="https://maps.google.com/maps?q=1309%20Coffeen%20Avenue,%20Ste%201200,%20Sheridan,%20WY%2082801&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                allowfullscreen=""
+                loading="lazy"
+            ></iframe>
+
+            <form action="">
+                <h3>Get In Touch</h3>
+                <input type="text" placeholder="Name" class="box" required />
+                <input type="email" placeholder="Email" class="box" required />
+                <textarea name="" placeholder="Message" class="box" cols="30" rows="10" required></textarea>
+                <input type="submit" value="Send Message" class="btn" />
             </form>
         </div>
     </section>
@@ -130,9 +180,9 @@
         <div class="container">
             <p>&copy; 2026 3D NeuroNets LLC. All rights reserved.</p>
             <div class="social-links">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/3dneuronets"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.twitter.com/3dneuronets"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.github.com/3dneuronets"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
     </footer>

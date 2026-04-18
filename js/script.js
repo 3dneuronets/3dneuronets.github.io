@@ -1,55 +1,38 @@
-const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
-    const navLinks = document.querySelectorAll('.nav-links li');
+let navbar = document.querySelector('.header .navbar');
+let searchForm = document.querySelector('.header .search-form');
+let loginForm = document.querySelector('.header .login-form');
+let contactInfo = document.querySelector('.contact-info');
 
-    burger.addEventListener('click', () => {
-        // Toggle Nav
-        nav.classList.toggle('nav-active');
+document.querySelector('#menu-btn').onclick = () => {
+    navbar.classList.toggle('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+};
 
-        // Animate Links
-        navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = '';
-            } else {
-                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
-            }
-        });
+document.querySelector('#search-btn').onclick = () => {
+    searchForm.classList.toggle('active');
+    navbar.classList.remove('active');
+    loginForm.classList.remove('active');
+};
 
-        // Burger Animation
-        burger.classList.toggle('toggle');
-    });
-}
+document.querySelector('#login-btn').onclick = () => {
+    loginForm.classList.toggle('active');
+    navbar.classList.remove('active');
+    searchForm.classList.remove('active');
+};
 
-// Close mobile menu when a link is clicked
-const closeMenuOnLinkClick = () => {
-    const nav = document.querySelector('.nav-links');
-    const burger = document.querySelector('.burger');
-    const navLinks = document.querySelectorAll('.nav-links li a');
+document.querySelector('#info-btn').onclick = () => {
+    contactInfo.classList.add('active');
+};
 
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            if (nav.classList.contains('nav-active')) {
-                nav.classList.remove('nav-active');
-                burger.classList.remove('toggle');
-                
-                document.querySelectorAll('.nav-links li').forEach(li => {
-                    li.style.animation = '';
-                });
-            }
-        });
-    });
-}
+document.querySelector('#close-contact-info').onclick = () => {
+    contactInfo.classList.remove('active');
+};
 
-// Execute on load
-document.addEventListener("DOMContentLoaded", () => {
-    navSlide();
-    closeMenuOnLinkClick();
-});
-
-// Simple Form Submission Handler
-document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Thank you! Your message has been sent to the 3D NeuralNets team.');
-    this.reset();
-});
+// Close menus when scrolling
+window.onscroll = () => {
+    navbar.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    contactInfo.classList.remove('active');
+};
