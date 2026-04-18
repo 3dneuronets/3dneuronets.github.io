@@ -79,7 +79,10 @@ header {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2000&auto=format&fit=crop') center/cover;
+    /* The background is now handled by the animation below */
+    background-position: center;
+    background-size: cover;
+    animation: alternateBackground 10s infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,6 +90,17 @@ header {
     color: var(--white);
     padding-top: 80px;
 }
+
+/* 10 second total loop = 5 seconds per GIF */
+@keyframes alternateBackground {
+    0%, 49.99% {
+        background-image: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('../images/init1.gif');
+    }
+    50%, 100% {
+        background-image: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('../images/init2.gif');
+    }
+}
+
 .hero-content h2 { font-size: 4rem; margin-bottom: 1rem; }
 .hero-content p { font-size: 1.2rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; }
 
