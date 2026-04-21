@@ -3,190 +3,277 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="3D NeuroNets LLC — Advanced AI, Deep Learning, and 3D Spatial Computing solutions for modern engineering and scientific challenges.">
+    <meta property="og:title" content="3D NeuroNets LLC | AI & 3D Simulation Experts">
+    <meta property="og:description" content="Empowering projects with cutting-edge 3D Neural Networks, Deep Learning, and Spatial Computing.">
+    <meta property="og:type" content="website">
     <title>3D NeuroNets LLC | Advanced Solutions For Your Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
 <header class="header">
-        <a href="#" class="logo"><span>3D</span> NeuroNets</a>
+    <a href="#" class="logo"><span>3D</span> NeuroNets</a>
 
-        <nav class="navbar">
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="info-btn" class="fas fa-info-circle"></div>
+        <a href="#contact" class="btn btn-sm">Get a Quote</a>
+    </div>
+</header>
+
+<div class="contact-info">
+    <div id="close-contact-info" class="fas fa-times"></div>
+
+    <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>Email Address</h3>
+        <p>3dneuronets@gmail.com</p>
+    </div>
+
+    <div class="info">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Office Address</h3>
+        <p>1309 Coffeen Avenue, Ste 1200</p>
+        <p>Sheridan, WY 82801, US</p>
+    </div>
+
+    <div class="info">
+        <i class="fas fa-clock"></i>
+        <h3>Business Hours</h3>
+        <p>Monday – Friday: 9am – 6pm MST</p>
+        <p>Available globally via email</p>
+    </div>
+
+    <div class="share">
+        <a href="https://www.github.com/3dneuronets/" class="fab fa-github" title="GitHub" aria-label="GitHub"></a>
+        <a href="https://www.linkedin.com/in/3dneuronets" class="fab fa-linkedin" title="LinkedIn" aria-label="LinkedIn"></a>
+    </div>
+</div>
+
+<section id="home" class="hero">
+    <div class="hero-content fade-in">
+        <p class="hero-label">AI &amp; 3D Simulation Experts</p>
+        <h1>3D Simulations + Data Science + AI</h1>
+        <p class="hero-sub">Empowering projects with cutting-edge 3D Neural Networks, Deep Learning, and Spatial Computing solutions.</p>
+        <div class="hero-actions">
+            <a href="#services" class="btn">Explore Solutions</a>
+            <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+        </div>
+    </div>
+    <div class="hero-stats">
+        <div class="stat"><span>50+</span><p>Projects Delivered</p></div>
+        <div class="stat"><span>5+</span><p>Years of R&amp;D</p></div>
+        <div class="stat"><span>10+</span><p>Technologies</p></div>
+        <div class="stat"><span>3</span><p>Core Domains</p></div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">About <span>Us</span></h2>
+        <div class="about-grid">
+            <div class="about-text fade-in">
+                <h3>Innovating the AI Frontier</h3>
+                <p>At 3D NeuroNets LLC, we specialize in building highly optimized machine learning models that bridge the gap between complex data and actionable insights.</p>
+                <p>Our team of world-class engineers and data scientists delivers top-notch software solutions customized for your projects — from multi-scale neural simulations to production-ready AI APIs.</p>
+                <a href="#contact" class="btn" style="margin-top:1.5rem;display:inline-block;">Work With Us</a>
+            </div>
+            <div class="about-stats fade-in">
+                <div class="stat-card">
+                    <i class="fas fa-brain"></i>
+                    <h4>Deep Learning</h4>
+                    <p>Custom architectures for classification, regression, and generative tasks.</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-cube"></i>
+                    <h4>3D Modeling</h4>
+                    <p>Multi-scale simulations and spatial computing for science and engineering.</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Data Science</h4>
+                    <p>End-to-end pipelines from raw data to business-ready predictions.</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-plug"></i>
+                    <h4>API Integration</h4>
+                    <p>Seamless deployment of AI capabilities into your existing infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services bg-light">
+    <div class="container">
+        <h2 class="section-title">Our <span>Services</span></h2>
+        <div class="grid-3">
+            <div class="service-card fade-in">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Deep Learning Models</h3>
+                <p>Custom neural networks designed to solve complex pattern recognition and predictive analytics problems at scale.</p>
+            </div>
+            <div class="service-card fade-in">
+                <i class="fa-solid fa-cube"></i>
+                <h3>3D Spatial Computing</h3>
+                <p>Advanced computer vision algorithms for 3D modeling, rendering, and spatial data analysis across scientific and industrial domains.</p>
+            </div>
+            <div class="service-card fade-in">
+                <i class="fa-solid fa-code"></i>
+                <h3>AI Integration</h3>
+                <p>Seamlessly integrate intelligent APIs and machine learning capabilities into your existing software infrastructure.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tech" class="tech-stack">
+    <div class="container">
+        <h2 class="section-title">Technologies We <span>Use</span></h2>
+        <div class="tech-grid fade-in">
+            <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+            <div class="tech-item"><i class="fas fa-fire"></i><span>PyTorch</span></div>
+            <div class="tech-item"><i class="fas fa-layer-group"></i><span>TensorFlow</span></div>
+            <div class="tech-item"><i class="fas fa-cube"></i><span>Three.js</span></div>
+            <div class="tech-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+            <div class="tech-item"><i class="fab fa-aws"></i><span>AWS</span></div>
+            <div class="tech-item"><i class="fas fa-microscope"></i><span>NEURON</span></div>
+            <div class="tech-item"><i class="fas fa-table"></i><span>NumPy / Pandas</span></div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2 class="section-title">Our <span>Portfolio</span></h2>
+        <div class="grid-3">
+
+            <div class="portfolio-item fade-in">
+                <div class="portfolio-preview portfolio-preview--robotics">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>NeuroVision System</h3>
+                    <p>Real-time 3D object detection for autonomous robotics.</p>
+                    <div class="portfolio-tags">
+                        <span>PyTorch</span><span>OpenCV</span><span>ROS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item fade-in">
+                <div class="portfolio-preview portfolio-preview--analytics">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>DataSphere Analytics</h3>
+                    <p>Enterprise dashboard powered by predictive neural networks.</p>
+                    <div class="portfolio-tags">
+                        <span>TensorFlow</span><span>React</span><span>D3.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item fade-in">
+                <div class="portfolio-preview portfolio-preview--medical">
+                    <i class="fas fa-microscope"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>MediScan AI</h3>
+                    <p>High-precision volumetric analysis for medical imaging.</p>
+                    <div class="portfolio-tags">
+                        <span>MONAI</span><span>ITK</span><span>Python</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item fade-in">
+                <img src="images/Hippocampus-low.gif" alt="Multiscale modeling of the hippocampus — 3D simulation of CA1 neurons" class="portfolio-img" loading="lazy">
+                <div class="portfolio-content">
+                    <h3>Hippocampus Simulation</h3>
+                    <p>Multiscale 3D modeling of CA1 pyramidal neurons using the NEURON simulator.</p>
+                    <div class="portfolio-tags">
+                        <span>NEURON</span><span>Python</span><span>3D Viz</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="contact bg-light" id="contact">
+    <div class="container">
+        <h2 class="section-title">Contact <span>Us</span></h2>
+    </div>
+    <div class="contact-wrapper">
+        <iframe
+            class="map"
+            src="https://maps.google.com/maps?q=1309%20Coffeen%20Avenue,%20Ste%201200,%20Sheridan,%20WY%2082801&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+            title="3D NeuroNets Office Location"
+        ></iframe>
+
+        <form action="" class="contact-form">
+            <h3>Get In Touch</h3>
+            <p class="form-note">We typically respond within one business day.</p>
+            <input type="text" placeholder="Your Name" class="box" required />
+            <input type="email" placeholder="Your Email" class="box" required />
+            <textarea placeholder="Tell us about your project..." class="box" rows="8" required></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <p class="footer-logo"><span>3D</span> NeuroNets LLC</p>
+            <p class="footer-tagline">Advancing science through intelligent computation.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/3dneuronets" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.twitter.com/3dneuronets" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.github.com/3dneuronets" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
-        </nav>
-
-        <div class="icons">
-            <div id="menu-btn" class="fas fa-bars"></div>
-            <div id="info-btn" class="fas fa-info-circle"></div>
-            <div id="search-btn" class="fas fa-search"></div>
-            <div id="login-btn" class="fas fa-user"></div>
         </div>
-
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="search here..." id="search-box" />
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-
-        <form action="" class="login-form">
-            <h3>Login Form</h3>
-            <input type="email" placeholder="enter your email" class="box" />
-            <input type="password" placeholder="enter your password" class="box" />
-            <div class="flex">
-                <input type="checkbox" name="" id="remember-me" />
-                <label for="remember-me">remember me</label>
-                <a href="#">forgot password?</a>
-            </div>
-            <input type="submit" value="login now" class="btn" />
-            <p>don't have an account? <a href="#">create one!</a></p>
-        </form>
-    </header>
-
-    <div class="contact-info">
-        <div id="close-contact-info" class="fas fa-times"></div>
-
-        <div class="info">
-            <i class="fas fa-phone"></i>
-            <h3>Phone Number</h3>
-            <p>+222-111-4444</p>
-            <p>+111-222-3333</p>
-        </div>
-
-        <div class="info">
-            <i class="fas fa-envelope"></i>
-            <h3>Email Address</h3>
-            <p>3dneuronets@gmail.com</p>
-        </div>
-
-        <div class="info">
-            <i class="fas fa-map-marker-alt"></i>
-            <h3>1309 Coffeen Avenue, Ste 1200</h3>
-            <p>Sheridan, WY 82801, US</p>
-        </div>
-
-        <div class="share">
-            <a href="https://www.github.com/3dneuronets/" class="fab fa-github"></a>
-            <a href="https://www.linkedin.com/in/3dneuronets" class="fab fa-linkedin"></a>
+        <div class="footer-contact">
+            <h4>Get In Touch</h4>
+            <p><i class="fas fa-envelope"></i> 3dneuronets@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Sheridan, WY 82801, US</p>
+            <p><i class="fas fa-clock"></i> Mon – Fri, 9am – 6pm MST</p>
         </div>
     </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 3D NeuroNets LLC. All rights reserved.</p>
+    </div>
+</footer>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>3D Simulations + Data Science + AI</h2>
-            <p>Empowering projects with cutting-edge 3D Neural Networks, Deep Learning, and Spatial Computing solutions.</p>
-            <a href="#services" class="btn">Explore Solutions</a>
-        </div>
-    </section>
+<button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+</button>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About <span>Us</span></h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Innovating the AI Frontier</h3>
-                    <p>At 3D NeuroNets LLC, we specialize in building highly optimized machine learning models that bridge the gap between complex data and actionable insights. Our team of world-class engineers and data scientists are dedicated to delivering top-notch software solutions customized for your projects.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="services bg-light">
-        <div class="container">
-            <h2 class="section-title">Our <span>Services</span></h2>
-            <div class="grid-3">
-                <div class="service-card">
-                    <i class="fa-solid fa-brain"></i>
-                    <h3>Deep Learning Models</h3>
-                    <p>Custom neural networks designed to solve complex pattern recognition and predictive analytics problems.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fa-solid fa-cube"></i>
-                    <h3>3D Spatial Computing</h3>
-                    <p>Advanced computer vision algorithms for 3D modeling, rendering, and spatial data analysis.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>AI Integration</h3>
-                    <p>Seamlessly integrate intelligent APIs and machine learning capabilities into your existing software infrastructure.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2 class="section-title">Our <span>Portfolio</span></h2>
-            <div class="grid-3">
-                
-                <div class="portfolio-item">
-                    <div class="portfolio-content">
-                        <h3>NeuroVision System</h3>
-                        <p>Real-time 3D object detection for autonomous robotics.</p>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item">
-                    <div class="portfolio-content">
-                        <h3>DataSphere Analytics</h3>
-                        <p>Enterprise dashboard powered by predictive neural networks.</p>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item">
-                    <div class="portfolio-content">
-                        <h3>MediScan AI</h3>
-                        <p>High-precision volumetric analysis for medical imaging.</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-item">
-                    <img src="images/Hippocampus-low.gif" alt="Multiscale modeling of the hippocampus" class="portfolio-img">
-                    <div class="portfolio-content">
-                        <h3>Multiscale modeling of the hippocampus</h3>
-                        <p>3D Simulations of Ca1 using Neuron.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="contact bg-light" id="contact">
-        <h2 class="section-title">Contact <span>Us</span></h2>
-
-        <div class="row">
-            <iframe
-                class="map"
-                src="https://maps.google.com/maps?q=1309%20Coffeen%20Avenue,%20Ste%201200,%20Sheridan,%20WY%2082801&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                allowfullscreen=""
-                loading="lazy"
-            ></iframe>
-
-            <form action="">
-                <h3>Get In Touch</h3>
-                <input type="text" placeholder="Name" class="box" required />
-                <input type="email" placeholder="Email" class="box" required />
-                <textarea name="" placeholder="Message" class="box" cols="30" rows="10" required></textarea>
-                <input type="submit" value="Send Message" class="btn" />
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 3D NeuroNets LLC. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/3dneuronets"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.twitter.com/3dneuronets"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.github.com/3dneuronets"><i class="fa-brands fa-github"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
