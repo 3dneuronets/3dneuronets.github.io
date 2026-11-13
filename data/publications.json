@@ -1,0 +1,270 @@
+[
+  {
+    "title": "Neuronal silence as a predictive biomarker and target for epileptic seizures suppression",
+    "authors": "Souza et al.",
+    "journal": "Scientific Reports",
+    "year": 2026,
+    "topic": "Epilepsy",
+    "doi": "10.1038/s41598-026-44063-w",
+    "featured_order": 2
+  },
+  {
+    "title": "Nitric oxide refines retinal circuit architecture independently of retinal wave dynamics",
+    "authors": "Walter et al.",
+    "journal": "Cell Death Discovery",
+    "year": 2026,
+    "topic": "Neural data",
+    "doi": "10.1038/s41420-026-03228-2",
+    "featured_order": 3
+  },
+  {
+    "title": "Synaptic potentiation dependence on spike variability",
+    "authors": "Protachevicz et al.",
+    "journal": "The European Physical Journal Special Topics",
+    "year": 2026,
+    "topic": "Network dynamics",
+    "doi": "10.1140/epjs/s11734-026-02142-z"
+  },
+  {
+    "title": "Exposure to β-hydroxybutyrate reduces the operating set point and increases excitability in hippocampal circuitry of healthy mice",
+    "authors": "Zampieri et al.",
+    "journal": "Frontiers in Pharmacology",
+    "year": 2025,
+    "topic": "Neural data",
+    "doi": "10.3389/fphar.2025.1557612"
+  },
+  {
+    "title": "Collapse of multi-headed chimera states in biologically based neuronal networks",
+    "authors": "Bentivoglio et al.",
+    "journal": "Chaos",
+    "year": 2025,
+    "topic": "Network dynamics",
+    "doi": "10.1063/5.0282696"
+  },
+  {
+    "title": "Hippocampal Interneurons Shape Spatial Coding Alterations in Neurological Disorders",
+    "authors": "Ikebara et al.",
+    "journal": "Molecular Neurobiology",
+    "year": 2025,
+    "topic": "Circuit modeling",
+    "doi": "10.1007/s12035-025-05020-2"
+  },
+  {
+    "title": "The Roles of Potassium and Calcium Currents in the Bistable Firing Transition",
+    "authors": "Borges et al.",
+    "journal": "Brain Sciences",
+    "year": 2023,
+    "topic": "Ion channels",
+    "doi": "10.3390/brainsci13091347"
+  },
+  {
+    "title": "Analyzing bursting synchronization in structural connectivity matrix of a human brain under external pulsed currents",
+    "authors": "Sayari et al.",
+    "journal": "Chaos",
+    "year": 2023,
+    "topic": "Stimulation",
+    "doi": "10.1063/5.0135399"
+  },
+  {
+    "title": "Large-scale biophysically detailed model of somatosensory thalamocortical circuits in NetPyNE",
+    "authors": "Borges et al.",
+    "journal": "Frontiers in Neuroinformatics",
+    "year": 2022,
+    "topic": "Circuit modeling",
+    "doi": "10.3389/fninf.2022.884245",
+    "featured_order": 4
+  },
+  {
+    "title": "Reintroduction of the archaic variant of NOVA1 in cortical organoids alters neurodevelopment",
+    "authors": "Trujillo et al.",
+    "journal": "Science",
+    "year": 2021,
+    "topic": "Neural data",
+    "doi": "10.1126/science.aax2537",
+    "featured_order": 1
+  },
+  {
+    "title": "Influence of Delayed Conductance on Neuronal Synchronization",
+    "authors": "Protachevicz et al.",
+    "journal": "Frontiers in Physiology",
+    "year": 2020,
+    "topic": "Epilepsy",
+    "doi": "10.3389/fphys.2020.01053"
+  },
+  {
+    "title": "Synchronised firing patterns in a random network of adaptive exponential integrate-and-fire neuron model",
+    "authors": "Borges et al.",
+    "journal": "Neural Networks",
+    "year": 2017,
+    "topic": "Network dynamics",
+    "doi": "10.1016/j.neunet.2017.03.005"
+  },
+  {
+    "title": "Spike timing-dependent plasticity induces non-trivial topology in the brain",
+    "authors": "Borges, R. R. et al.",
+    "journal": "Neural Networks",
+    "year": 2017,
+    "topic": "Neural connectivity",
+    "doi": "10.1016/j.neunet.2017.01.010"
+  },
+  {
+    "title": "Complementary action of chemical and electrical synapses to perception",
+    "authors": "Borges et al.",
+    "journal": "Physica A: Statistical Mechanics and its Applications",
+    "year": 2015,
+    "topic": "Network dynamics",
+    "doi": "10.1016/j.physa.2015.02.098"
+  },
+  {
+    "title": "Synaptic Plasticity and Spike Synchronisation in Neuronal Networks",
+    "authors": "Borges et al.",
+    "journal": "Brazilian Journal of Physics",
+    "year": 2017,
+    "topic": "Network dynamics",
+    "doi": "10.1007/s13538-017-0529-5"
+  },
+  {
+    "title": "Adaptive exponential integrate-and-fire model with fractal extension",
+    "authors": "Souza et al.",
+    "journal": "Chaos",
+    "year": 2024,
+    "topic": "Network dynamics",
+    "doi": "10.1063/5.0176455"
+  },
+  {
+    "title": "Suppression of phase synchronisation in network based on cat's brain",
+    "authors": "Lameu et al.",
+    "journal": "Chaos",
+    "year": 2016,
+    "topic": "Neural connectivity",
+    "doi": "10.1063/1.4945796"
+  },
+  {
+    "title": "Recurrence quantification analysis for the identification of burst phase synchronisation",
+    "authors": "Lameu et al.",
+    "journal": "Chaos",
+    "year": 2018,
+    "topic": "Network dynamics",
+    "doi": "10.1063/1.5024324"
+  },
+  {
+    "title": "Spike-burst chimera states in an adaptive exponential integrate-and-fire neuronal network",
+    "authors": "Santos et al.",
+    "journal": "Chaos",
+    "year": 2019,
+    "topic": "Network dynamics",
+    "doi": "10.1063/1.5087129"
+  },
+  {
+    "title": "Network and external perturbation induce burst synchronisation in cat cerebral cortex",
+    "authors": "Lameu et al.",
+    "journal": "Commun. Nonlinear Sci. Nmber. Simulat.",
+    "year": 2016,
+    "topic": "Stimulation",
+    "doi": "10.1016/j.cnsns.2015.10.009"
+  },
+  {
+    "title": "Short-term and spike-timing-dependent plasticity facilitate the formation of modular neural networks",
+    "authors": "Lameu et al.",
+    "journal": "Commun. Nonlinear Sci. Nmber. Simulat.",
+    "year": 2021,
+    "topic": "Network dynamics",
+    "doi": "10.1016/j.cnsns.2020.105689"
+  },
+  {
+    "title": "Chimera-like states in a neuronal network model of the cat brain",
+    "authors": "Santos et al.",
+    "journal": "Chaos, Solitons and Fractals",
+    "year": 2017,
+    "topic": "Neural connectivity",
+    "doi": "10.1016/j.chaos.2017.05.028"
+  },
+  {
+    "title": "Plastic neural network with transmission delays promotes equivalence between function and structure",
+    "authors": "Protachevicz et al.",
+    "journal": "Chaos, Solitons and Fractals",
+    "year": 2023,
+    "topic": "Network dynamics",
+    "doi": "10.1016/j.chaos.2023.113480"
+  },
+  {
+    "title": "Spiral wave dynamics in a neuronal network model",
+    "authors": "Souza et al.",
+    "journal": "Journal of Physics Complexity",
+    "year": 2024,
+    "topic": "Neural connectivity",
+    "doi": "10.1088/2632-072X/ad42f6"
+  },
+  {
+    "title": "Intermittency properties in a temporal lobe epilepsy model",
+    "authors": "Borges et al.",
+    "journal": "Epilepsy & behavior",
+    "year": 2023,
+    "topic": "Epilepsy",
+    "doi": "10.1016/j.yebeh.2022.109072"
+  },
+  {
+    "title": "Modeling and characterizing stochastic neurons based on in vitro voltage-dependent spike probability functions",
+    "authors": "Lima et al.",
+    "journal": "Eur. Phys. J. Spec. Top.",
+    "year": 2021,
+    "topic": "Neural data",
+    "doi": "10.1140/epjs/s11734-021-00160-7"
+  },
+  {
+    "title": "Self-sustained activity of low firing rate in balanced networks",
+    "authors": "Borges et al.",
+    "journal": "Physica A",
+    "year": 2020,
+    "topic": "Circuit modeling",
+    "doi": "10.1016/j.physa.2019.122671"
+  },
+  {
+    "title": "Synchronous behaviour in network model based on human cortico-cortical connections",
+    "authors": "Protachevicz et al.",
+    "journal": "Physiol. Meas.",
+    "year": 2018,
+    "topic": "Neural connectivity",
+    "doi": "10.1088/1361-6579/aace91"
+  },
+  {
+    "title": "Approaching Brain Levels of Organization with Computational Neuroscience",
+    "authors": "Borges et al.",
+    "journal": "Premier Journal of Science",
+    "year": 2025,
+    "topic": "Circuit modeling",
+    "doi": "10.70389/PJS.100071"
+  },
+  {
+    "title": "Inference of topology and the nature of synapses, and the flow of information in neuronal networks",
+    "authors": "Borges et al.",
+    "journal": "Physical Review E",
+    "year": 2018,
+    "topic": "Neural connectivity",
+    "doi": "10.1103/PhysRevE.97.022303"
+  },
+  {
+    "title": "TREK-1 inhibition promotes synaptic plasticity in the prelimbic cortex",
+    "authors": "Oliveira et al.",
+    "journal": "Experimental Neurology",
+    "year": 2024,
+    "topic": "Neural data",
+    "doi": "10.1016/j.expneurol.2023.114652"
+  },
+  {
+    "title": "Serotonergic Modulation of the Excitation/Inhibition Balance in the Visual Cortex",
+    "authors": "Lima et al.",
+    "journal": "Molecular Sciences",
+    "year": 2024,
+    "topic": "Neural data",
+    "doi": "10.3390/ijms25010519"
+  },
+  {
+    "title": "5‑HT‑dependent synaptic plasticity of the prefrontal cortex in postnatal development",
+    "authors": "Higa et al.",
+    "journal": "Scientific Reports",
+    "year": 2022,
+    "topic": "Neural data",
+    "doi": "10.1038/s41598-022-23767-9"
+  }
+]

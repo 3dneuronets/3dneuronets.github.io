@@ -1,0 +1,32 @@
+/* Shared header adjustments for the new navigation, without changing the existing palette. */
+.header .navbar a[aria-current="page"] { color: #79b8ff; }
+.header .logo { white-space: nowrap; }
+.header .icons .btn { white-space: nowrap; }
+@media (min-width: 901px) and (max-width: 1150px) {
+    .header { padding-inline: 3%; }
+    .header .navbar a { margin-left: 1rem; font-size: .92rem; }
+    .header .logo { font-size: 1.5rem; }
+}
+@media (max-width: 900px) {
+    #menu-btn { display: inline-block; }
+    .header .navbar { position: absolute; top: 100%; left: 0; right: 0; background: var(--primary-color); border-top: 1px solid rgba(255,255,255,.1); display: flex; flex-direction: column; align-items: flex-start; transform: scaleY(0); transform-origin: top; transition: transform .3s ease; padding: .5rem 0; visibility: hidden; }
+    .header .navbar.active { transform: scaleY(1); visibility: visible; }
+    .header .navbar a { margin: .75rem 5%; display: block; }
+}
+@media (max-width: 480px) {
+    .header { padding: .95rem 4%; gap: 8px; }
+    .header .logo { font-size: clamp(1.05rem,4.3vw,1.5rem); }
+    .header .icons { gap: .65rem; }
+    .header .icons div { font-size: 1.15rem; }
+    .header .icons .btn { padding: 7px 9px; font-size: .72rem; }
+}
+/* Keep the original contact panel within narrow screens. */
+.contact-info { max-width:100%; }
+@media (max-width:480px) {
+    .contact-wrapper .map,.contact-form { min-width:0; width:100%; }
+    .contact-form { padding:1.2rem; overflow-wrap:anywhere; }
+    .contact-form .box { min-width:0; width:100%; }
+    .tech-grid { gap:.6rem; grid-template-columns:repeat(3,minmax(0,1fr)); }
+    .tech-item { padding:1rem .35rem; min-width:0; overflow-wrap:anywhere; }
+    .footer-contact p { overflow-wrap:anywhere; }
+}

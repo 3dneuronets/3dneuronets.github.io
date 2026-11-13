@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="3D NeuroNets LLC — Advanced AI, Deep Learning, and 3D Spatial Computing solutions for modern engineering and scientific challenges.">
-    <meta property="og:title" content="3D NeuroNets LLC | AI & 3D Simulation Experts">
-    <meta property="og:description" content="Empowering projects with cutting-edge 3D Neural Networks, Deep Learning, and Spatial Computing.">
+    <meta property="og:title" content="3D NeuroNets LLC | Where Neural Data and Models Converge.">
+    <meta property="og:description" content="Empowering projects with cutting-edge Reconstructed Neural Networks, Neural data, and Spatial Computing.">
     <meta property="og:type" content="website">
     <title>3D NeuroNets LLC | Advanced Solutions For Your Projects</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,24 +13,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/domains.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
 
 <header class="header">
-    <a href="#" class="logo"><span>3D</span> NeuroNets</a>
+    <a href="./index.html#home" class="logo"><span>3D</span> NeuroNets</a>
 
     <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a href="./index.html#home" aria-current="page">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./publications.html">Publications</a>
+        <a href="./index.html#contact">Contact</a>
     </nav>
 
     <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
         <div id="info-btn" class="fas fa-info-circle"></div>
-        <a href="#contact" class="btn btn-sm">Get a Quote</a>
+        <a href="./index.html#contact" class="btn btn-sm">Get a Quote</a>
     </div>
 </header>
 
@@ -64,66 +67,91 @@
     </div>
 
     <div class="share">
-        <a href="https://www.github.com/3dneuronets/" class="fab fa-github" title="GitHub" aria-label="GitHub"></a>
-        <a href="https://www.linkedin.com/in/3dneuronets" class="fab fa-linkedin" title="LinkedIn" aria-label="LinkedIn"></a>
+        <a href="https://github.com/3dneuronets/Portfolio" class="fab fa-github" title="GitHub" aria-label="GitHub"></a>
+        <a href="https://www.linkedin.com/in/fernando-da-silva-borges/" class="fab fa-linkedin" title="LinkedIn" aria-label="LinkedIn"></a>
     </div>
 </div>
 
 <section id="home" class="hero">
     <div class="hero-content fade-in">
-        <p class="hero-label">AI &amp; 3D Simulation Experts</p>
-        <h1>3D Simulations + Data Science + AI</h1>
-        <p class="hero-sub">Empowering projects with cutting-edge 3D Neural Networks, Deep Learning, and Spatial Computing solutions.</p>
+        <p class="hero-label">Where Neural Data and Models Converge.</p>
+        <h1>Neural Data + Simulations + AI</h1>
+        <p class="hero-sub">Empowering projects with cutting-edge Reconstructed Neural Networks, Neural data, and Spatial Computing.</p>
         <div class="hero-actions">
-            <a href="#services" class="btn">Explore Solutions</a>
-            <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+            <a href="#core-domains" class="btn">Explore Solutions</a>
         </div>
     </div>
     <div class="hero-stats">
         <div class="stat"><span>50+</span><p>Projects Delivered</p></div>
+        <div class="stat"><span>40+</span><p>Peer-reviewed Publications</p></div>
         <div class="stat"><span>5+</span><p>Years of R&amp;D</p></div>
-        <div class="stat"><span>10+</span><p>Technologies</p></div>
         <div class="stat"><span>3</span><p>Core Domains</p></div>
     </div>
 </section>
 
-<section id="about" class="about">
-    <div class="container">
-        <h2 class="section-title">About <span>Us</span></h2>
-        <div class="about-grid">
-            <div class="about-text fade-in">
-                <h3>Innovating the AI Frontier</h3>
-                <p>At 3D NeuroNets LLC, we specialize in building highly optimized machine learning models that bridge the gap between complex data and actionable insights.</p>
-                <p>Our team of world-class engineers and data scientists delivers top-notch software solutions customized for your projects — from multi-scale neural simulations to production-ready AI APIs.</p>
-                <a href="#contact" class="btn" style="margin-top:1.5rem;display:inline-block;">Work With Us</a>
+<section id="about" class="about nn-home-about" aria-labelledby="home-about-title">
+    <div class="container nn-home-about-grid">
+        <div class="nn-home-about-copy">
+            <p class="nn-kicker">About 3D NeuroNets</p>
+            <h2 id="home-about-title">Connecting neuroscience<br>and computation.</h2>
+            <p>3D NeuroNets LLC develops computational solutions for neuroscience research and neurotechnology. We bring together experimental neural data, biophysically detailed simulations and artificial intelligence to investigate the brain across scales.</p>
+            <p>Led by computational neuroscientist Fernando da Silva Borges, Ph.D., we focus on translating scientific questions into quantitative, reproducible computational workflows.</p>
+            <div class="nn-actions"><a href="./about.html" class="btn">Learn About Us <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a><a href="./publications.html" class="nn-text-link">Explore the research <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></div>
+        </div>
+        <aside class="nn-home-about-panel" aria-label="Our approach">
+            <p class="nn-kicker">From question to insight</p>
+            <div><i class="fa-solid fa-wave-square" aria-hidden="true"></i><span><strong>Understand the data</strong><small>Electrophysiology and connectivity</small></span></div>
+            <div><i class="fa-solid fa-brain" aria-hidden="true"></i><span><strong>Reconstruct the mechanisms</strong><small>Neurons, synapses and circuits</small></span></div>
+            <div><i class="fa-solid fa-diagram-project" aria-hidden="true"></i><span><strong>Test and refine predictions</strong><small>Simulation, optimization and AI</small></span></div>
+        </aside>
+    </div>
+</section>
+
+<section id="core-domains" class="nn-domains" aria-labelledby="nn-domains-title">
+    <div class="nn-domains-inner">
+        <div class="nn-domains-copy">
+            <p class="nn-domains-kicker">Our core domains</p>
+            <h2 id="nn-domains-title">Where science and computation <span>converge.</span></h2>
+            <p class="nn-domains-intro">3D NeuroNets brings together experimental neural data, biophysical modeling and artificial intelligence to investigate biological neural systems across scales.</p>
+            <div class="nn-domains-key">
+                <div class="nn-domain-item nn-data"><span class="nn-domain-dot" aria-hidden="true"></span><div><h3>Neural Data Analysis</h3><p>Extract insights from electrophysiology and neural connectivity.</p></div></div>
+                <div class="nn-domain-item nn-model"><span class="nn-domain-dot" aria-hidden="true"></span><div><h3>Biophysical Modeling</h3><p>Reconstruct cellular mechanisms and network dynamics in silico.</p></div></div>
+                <div class="nn-domain-item nn-ai"><span class="nn-domain-dot" aria-hidden="true"></span><div><h3>AI &amp; Machine Learning</h3><p>Discover patterns, optimize models and make predictions.</p></div></div>
             </div>
-            <div class="about-stats fade-in">
-                <div class="stat-card">
-                    <i class="fas fa-brain"></i>
-                    <h4>Deep Learning</h4>
-                    <p>Custom architectures for classification, regression, and generative tasks.</p>
-                </div>
-                <div class="stat-card">
-                    <i class="fas fa-cube"></i>
-                    <h4>3D Modeling</h4>
-                    <p>Multi-scale simulations and spatial computing for science and engineering.</p>
-                </div>
-                <div class="stat-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h4>Data Science</h4>
-                    <p>End-to-end pipelines from raw data to business-ready predictions.</p>
-                </div>
-                <div class="stat-card">
-                    <i class="fas fa-plug"></i>
-                    <h4>API Integration</h4>
-                    <p>Seamless deployment of AI capabilities into your existing infrastructure.</p>
-                </div>
-            </div>
+            <a class="nn-domains-link" href="./portfolio.html">Explore our portfolio &rarr;</a>
+        </div>
+        <div class="nn-domains-visual">
+            <svg class="nn-venn" viewBox="0 0 510 440" role="img" aria-labelledby="nn-venn-title nn-venn-desc" xmlns="http://www.w3.org/2000/svg">
+                <title id="nn-venn-title">3D NeuroNets core domains</title>
+                <desc id="nn-venn-desc">Three overlapping circles represent neural data analysis, biophysical modeling and AI and machine learning. 3D NeuroNets is at their intersection.</desc>
+                <g class="nn-venn-circles">
+                    <circle class="nn-circle nn-circle-data" cx="174" cy="153" r="135"/>
+                    <circle class="nn-circle nn-circle-model" cx="336" cy="153" r="135"/>
+                    <circle class="nn-circle nn-circle-ai" cx="255" cy="293" r="135"/>
+                </g>
+                <g class="nn-venn-label nn-label-data" text-anchor="middle">
+                    <g class="nn-venn-icon" transform="translate(102 71)"><path d="M0 0v37h51M4 24h9l6-10 6 15 7-26 6 21h11"/></g>
+                    <text x="128" y="135">Neural Data</text><text x="128" y="156">Analysis</text>
+                </g>
+                <g class="nn-venn-label nn-label-model" text-anchor="middle">
+                    <g class="nn-venn-icon" transform="translate(359 70)"><path d="M23 0 45 12v25L23 49 1 37V12ZM1 12l22 13 22-13M23 25v24"/></g>
+                    <text x="382" y="144">Biophysical</text><text x="382" y="165">Modeling</text>
+                </g>
+                <g class="nn-venn-label nn-label-ai" text-anchor="middle">
+                    <g class="nn-venn-icon" transform="translate(229 308)"><path d="M0 10 26 0l26 10-26 19L0 10M26 0v29"/><circle cx="0" cy="10" r="4"/><circle cx="26" cy="0" r="4"/><circle cx="52" cy="10" r="4"/><circle cx="26" cy="29" r="4"/></g>
+                    <text x="255" y="369">AI &amp; Machine</text><text x="255" y="390">Learning</text>
+                </g>
+                <g class="nn-venn-brand" text-anchor="middle">
+                    <rect x="192" y="183" width="126" height="57" rx="12"/>
+                    <text x="255" y="205" class="nn-venn-3d">3D</text>
+                    <text x="255" y="226" class="nn-venn-name">NeuroNets</text>
+                </g>
+            </svg>
         </div>
     </div>
 </section>
 
-<section id="services" class="services bg-light">
+<!-- <section id="services" class="services bg-light">
     <div class="container">
         <h2 class="section-title">Our <span>Services</span></h2>
         <div class="grid-3">
@@ -144,7 +172,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section id="tech" class="tech-stack">
     <div class="container">
@@ -162,62 +190,40 @@
     </div>
 </section>
 
-<section id="portfolio" class="portfolio">
-    <div class="container">
-        <h2 class="section-title">Our <span>Portfolio</span></h2>
-        <div class="grid-3">
-
-            <div class="portfolio-item fade-in">
-                <div class="portfolio-preview portfolio-preview--robotics">
-                    <i class="fas fa-robot"></i>
-                </div>
-                <div class="portfolio-content">
-                    <h3>NeuroVision System</h3>
-                    <p>Real-time 3D object detection for autonomous robotics.</p>
-                    <div class="portfolio-tags">
-                        <span>PyTorch</span><span>OpenCV</span><span>ROS</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-item fade-in">
-                <div class="portfolio-preview portfolio-preview--analytics">
-                    <i class="fas fa-chart-bar"></i>
-                </div>
-                <div class="portfolio-content">
-                    <h3>DataSphere Analytics</h3>
-                    <p>Enterprise dashboard powered by predictive neural networks.</p>
-                    <div class="portfolio-tags">
-                        <span>TensorFlow</span><span>React</span><span>D3.js</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-item fade-in">
-                <div class="portfolio-preview portfolio-preview--medical">
-                    <i class="fas fa-microscope"></i>
-                </div>
-                <div class="portfolio-content">
-                    <h3>MediScan AI</h3>
-                    <p>High-precision volumetric analysis for medical imaging.</p>
-                    <div class="portfolio-tags">
-                        <span>MONAI</span><span>ITK</span><span>Python</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-item fade-in">
-                <img src="images/Hippocampus-low.gif" alt="Multiscale modeling of the hippocampus — 3D simulation of CA1 neurons" class="portfolio-img" loading="lazy">
-                <div class="portfolio-content">
-                    <h3>Hippocampus Simulation</h3>
-                    <p>Multiscale 3D modeling of CA1 pyramidal neurons using the NEURON simulator.</p>
-                    <div class="portfolio-tags">
-                        <span>NEURON</span><span>Python</span><span>3D Viz</span>
-                    </div>
-                </div>
-            </div>
-
+<section id="featured-research" class="nn-home-research nn-section nn-tint" aria-labelledby="featured-research-title">
+    <div class="nn-wrap">
+        <p class="nn-kicker">Scientific foundations</p>
+        <h2 id="featured-research-title">Selected publications.</h2>
+        <p class="nn-section-intro">Peer-reviewed research co-authored by 3D NeuroNets, illustrating the scientific background behind our work in neural data analysis and computational neuroscience.</p>
+        <div class="nn-featured">
+<!-- FEATURED:START -->
+<article class="nn-paper" data-topic="Neural data" data-year="2021">
+    <div class="nn-paper-meta"><span>2021</span><span>Neural data</span></div>
+    <h3><a href="https://doi.org/10.1126/science.aax2537" target="_blank" rel="noopener noreferrer">Reintroduction of the archaic variant of NOVA1 in cortical organoids alters neurodevelopment</a></h3>
+    <p>Trujillo et al. · <i>Science</i></p>
+    <a class="nn-doi" href="https://doi.org/10.1126/science.aax2537" target="_blank" rel="noopener noreferrer">DOI: 10.1126/science.aax2537 <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+</article>
+<article class="nn-paper" data-topic="Epilepsy" data-year="2026">
+    <div class="nn-paper-meta"><span>2026</span><span>Epilepsy</span></div>
+    <h3><a href="https://doi.org/10.1038/s41598-026-44063-w" target="_blank" rel="noopener noreferrer">Neuronal silence as a predictive biomarker and target for epileptic seizures suppression</a></h3>
+    <p>Souza et al. · <i>Scientific Reports</i></p>
+    <a class="nn-doi" href="https://doi.org/10.1038/s41598-026-44063-w" target="_blank" rel="noopener noreferrer">DOI: 10.1038/s41598-026-44063-w <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+</article>
+<article class="nn-paper" data-topic="Neural data" data-year="2026">
+    <div class="nn-paper-meta"><span>2026</span><span>Neural data</span></div>
+    <h3><a href="https://doi.org/10.1038/s41420-026-03228-2" target="_blank" rel="noopener noreferrer">Nitric oxide refines retinal circuit architecture independently of retinal wave dynamics</a></h3>
+    <p>Walter et al. · <i>Cell Death Discovery</i></p>
+    <a class="nn-doi" href="https://doi.org/10.1038/s41420-026-03228-2" target="_blank" rel="noopener noreferrer">DOI: 10.1038/s41420-026-03228-2 <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+</article>
+<article class="nn-paper" data-topic="Circuit modeling" data-year="2022">
+    <div class="nn-paper-meta"><span>2022</span><span>Circuit modeling</span></div>
+    <h3><a href="https://doi.org/10.3389/fninf.2022.884245" target="_blank" rel="noopener noreferrer">Large-scale biophysically detailed model of somatosensory thalamocortical circuits in NetPyNE</a></h3>
+    <p>Borges et al. · <i>Frontiers in Neuroinformatics</i></p>
+    <a class="nn-doi" href="https://doi.org/10.3389/fninf.2022.884245" target="_blank" rel="noopener noreferrer">DOI: 10.3389/fninf.2022.884245 <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+</article>
+<!-- FEATURED:END -->
         </div>
+        <a href="./publications.html" class="btn">View publications <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
     </div>
 </section>
 
@@ -250,20 +256,20 @@
     <div class="footer-inner">
         <div class="footer-brand">
             <p class="footer-logo"><span>3D</span> NeuroNets LLC</p>
-            <p class="footer-tagline">Advancing science through intelligent computation.</p>
+            <p class="footer-tagline">Advanced computational solutions for neuroscience research.</p>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/3dneuronets" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/fernando-da-silva-borges/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://www.twitter.com/3dneuronets" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.github.com/3dneuronets" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/3dneuronets/Portfolio" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
         <div class="footer-links">
             <h4>Quick Links</h4>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a href="./index.html#home">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./publications.html">Publications</a>
+            <a href="./index.html#contact">Contact</a>
         </div>
         <div class="footer-contact">
             <h4>Get In Touch</h4>

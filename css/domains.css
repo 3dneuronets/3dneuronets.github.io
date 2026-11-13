@@ -1,0 +1,47 @@
+/* 3D NeuroNets — shared core domains / Venn diagram */
+.nn-domains {
+    --nn-bg:#f7faff; --nn-text:#172b44; --nn-muted:#52677e;
+    --nn-blue:#2264ad; --nn-teal:#087e76; --nn-purple:#7350b7;
+    --nn-blue-fill:#76baff; --nn-teal-fill:#59d6c5; --nn-purple-fill:#b29af1;
+    --nn-brand-bg:#fff; --nn-brand-stroke:#8caac8; --nn-border:#dce6f1;
+    background:var(--nn-bg);color:var(--nn-text);padding:64px 0;
+    border-top:1px solid var(--nn-border);font:16px/1.6 Poppins,system-ui,sans-serif;
+    text-transform:none;
+}
+.nn-domains.nn-dark {
+    --nn-bg:#0d192b; --nn-text:#edf4ff; --nn-muted:#a9bbd1;
+    --nn-blue:#8acaff; --nn-teal:#7de7d8; --nn-purple:#c2aaff;
+    --nn-blue-fill:#369cf5; --nn-teal-fill:#48dccc; --nn-purple-fill:#ad91ff;
+    --nn-brand-bg:#14283e; --nn-brand-stroke:#91b8df; --nn-border:#273953;
+}
+.nn-domains .nn-domains-inner {width:min(1120px,calc(100% - 48px));margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;}
+.nn-domains .nn-domains-kicker {color:var(--nn-teal);font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin:0 0 12px;}
+.nn-domains h2 {font-size:clamp(28px,3.3vw,43px);font-weight:700;line-height:1.17;letter-spacing:-1.2px;margin:0 0 16px;color:var(--nn-text);text-transform:none;}
+.nn-domains h2 span {color:var(--nn-blue);}
+.nn-domains .nn-domains-intro {font-size:16px;line-height:1.65;color:var(--nn-muted);margin:0 0 25px;text-transform:none;}
+.nn-domains .nn-domains-key {display:grid;gap:15px;}
+.nn-domains .nn-domain-item {display:flex;gap:13px;align-items:flex-start;}
+.nn-domains .nn-data {--nn-accent:var(--nn-blue);}
+.nn-domains .nn-model {--nn-accent:var(--nn-teal);}
+.nn-domains .nn-ai {--nn-accent:var(--nn-purple);}
+.nn-domains .nn-domain-dot {background:var(--nn-accent);height:10px;width:10px;border-radius:50%;flex:0 0 10px;margin-top:7px;}
+.nn-domains .nn-domain-item h3 {font-size:16px;font-weight:600;color:var(--nn-accent);margin:0 0 3px;text-transform:none;}
+.nn-domains .nn-domain-item p {font-size:14px;color:var(--nn-muted);line-height:1.5;margin:0;text-transform:none;}
+.nn-domains .nn-domains-link {display:inline-block;color:var(--nn-blue);font-size:14px;font-weight:600;margin-top:23px;text-decoration:underline;text-underline-offset:4px;}
+.nn-domains .nn-venn {display:block;width:100%;max-width:510px;height:auto;margin:0 auto;overflow:visible;font-family:Poppins,system-ui,sans-serif;}
+.nn-domains .nn-circle {stroke-width:1.6;fill-opacity:.19;transition:fill-opacity .25s;}
+.nn-domains .nn-circle-data {fill:var(--nn-blue-fill);stroke:var(--nn-blue);}
+.nn-domains .nn-circle-model {fill:var(--nn-teal-fill);stroke:var(--nn-teal);}
+.nn-domains .nn-circle-ai {fill:var(--nn-purple-fill);stroke:var(--nn-purple);}
+.nn-domains .nn-circle:hover {fill-opacity:.32;}
+.nn-domains .nn-venn-label {font-size:18px;font-weight:600;}
+.nn-domains .nn-label-data {fill:var(--nn-blue);color:var(--nn-blue);}
+.nn-domains .nn-label-model {fill:var(--nn-teal);color:var(--nn-teal);}
+.nn-domains .nn-label-ai {fill:var(--nn-purple);color:var(--nn-purple);}
+.nn-domains .nn-venn-icon {fill:none;stroke:currentColor;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round;}
+.nn-domains .nn-venn-icon circle {fill:var(--nn-brand-bg);}
+.nn-domains .nn-venn-brand rect {fill:var(--nn-brand-bg);stroke:var(--nn-brand-stroke);stroke-width:1.3;}
+.nn-domains .nn-venn-3d {fill:var(--nn-blue);font-size:21px;font-weight:700;}
+.nn-domains .nn-venn-name {fill:var(--nn-text);font-size:15px;font-weight:600;}
+@media(max-width:760px){.nn-domains{padding:44px 0;}.nn-domains .nn-domains-inner{grid-template-columns:1fr;gap:25px;width:calc(100% - 32px);}.nn-domains .nn-venn{max-width:420px;}}
+@media(prefers-reduced-motion:reduce){.nn-domains .nn-circle{transition:none;}}
