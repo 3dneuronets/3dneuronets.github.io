@@ -1,0 +1,175 @@
+/* 3D NeuroNets — service previews. Additive: retains existing .pf-cap animations. */
+#portfolio-main .pf-cap.pf-preview-ready {
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 53px;
+}
+#portfolio-main .pf-cap.pf-preview-ready:focus-visible {
+  outline: 2px solid #67e0d0;
+  outline-offset: 4px;
+  border-color: #67e0d0;
+}
+#portfolio-main .pf-preview-cue {
+  position: absolute;
+  left: 19px;
+  bottom: 18px;
+  color: #67e0d0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1px;
+  opacity: .77;
+  transition: opacity .2s ease, transform .2s ease;
+}
+#portfolio-main .pf-cap:hover .pf-preview-cue,
+#portfolio-main .pf-cap:focus-visible .pf-preview-cue {
+  opacity: 1;
+  transform: translateX(4px);
+}
+.pf-service-overlay[hidden] { display: none !important; }
+.pf-service-overlay {
+  --preview-text: #edf4ff;
+  --preview-muted: #b4c5d9;
+  --preview-teal: #67e0d0;
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  overflow-y: auto;
+  background: rgba(3, 10, 20, .76);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  font-family: Poppins, system-ui, -apple-system, sans-serif;
+  color: var(--preview-text);
+  opacity: 0;
+  transition: opacity .18s ease;
+}
+.pf-service-overlay.pf-service-visible { opacity: 1; }
+.pf-service-dialog {
+  position: relative;
+  width: min(100%, 540px);
+  max-height: min(90vh, 800px);
+  overflow-y: auto;
+  background: radial-gradient(ellipse at 100% 0%, rgba(29, 93, 125, .22), transparent 55%), linear-gradient(150deg, #13253c, #0b182a);
+  border: 1px solid #3b5875;
+  border-radius: 18px;
+  padding: 34px 34px 30px;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, .57);
+  transform: translateY(12px) scale(.985);
+  transition: transform .22s ease;
+  box-sizing: border-box;
+}
+.pf-service-visible .pf-service-dialog { transform: translateY(0) scale(1); }
+.pf-service-dialog *, .pf-service-dialog *::before { box-sizing: border-box; }
+.pf-service-eyebrow {
+  margin: 0 34px 11px 0;
+  color: var(--preview-teal);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 11px;
+  font-weight: 700;
+}
+.pf-service-dialog h2 {
+  margin: 0 38px 10px 0;
+  color: var(--preview-text);
+  font-size: clamp(23px, 3vw, 30px);
+  line-height: 1.22;
+  letter-spacing: -.6px;
+  font-weight: 700;
+  text-transform: none;
+}
+.pf-service-lead {
+  margin: 0 0 15px;
+  color: #8fcfff;
+  font-size: 15px;
+  line-height: 1.55;
+  font-weight: 600;
+}
+.pf-service-summary {
+  margin: 0 0 22px;
+  color: var(--preview-muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+.pf-service-list-label {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--preview-text);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.pf-service-highlights {
+  margin: 0 0 27px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 9px;
+}
+.pf-service-highlights li {
+  position: relative;
+  padding-left: 20px;
+  color: #cad9e9;
+  font-size: 13px;
+  line-height: 1.55;
+}
+.pf-service-highlights li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--preview-teal);
+  font-weight: 800;
+}
+.pf-service-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 19px;
+  border-top: 1px solid #31445b;
+}
+.pf-service-github, .pf-service-dismiss {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font: 700 12px/1.4 Poppins, system-ui, sans-serif;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  padding: 12px 15px;
+  cursor: pointer;
+  transition: transform .2s, background .2s;
+}
+.pf-service-github { background: #78beff; color: #091626 !important; }
+.pf-service-github:hover { background: #b4ddff; transform: translateY(-2px); }
+.pf-service-dismiss { border-color: #56738e; color: #edf4ff; background: transparent; }
+.pf-service-dismiss:hover { background: #203954; }
+.pf-service-close {
+  position: absolute;
+  right: 19px;
+  top: 17px;
+  border: 1px solid #48637b;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  background: #183049;
+  color: #edf4ff;
+  font: 24px/1 Arial, sans-serif;
+  cursor: pointer;
+}
+.pf-service-close:hover { background: #2b4a67; }
+.pf-service-dialog :focus-visible {
+  outline: 2px solid #67e0d0;
+  outline-offset: 3px;
+}
+@media (max-width: 560px) {
+  .pf-service-overlay { padding: 12px; }
+  .pf-service-dialog { padding: 28px 20px 22px; border-radius: 14px; }
+  .pf-service-actions { flex-direction: column; }
+  .pf-service-github, .pf-service-dismiss { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pf-service-overlay, .pf-service-dialog, #portfolio-main .pf-preview-cue,
+  .pf-service-github, .pf-service-dismiss { transition: none !important; }
+}
